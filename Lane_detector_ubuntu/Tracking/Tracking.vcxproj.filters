@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kalman">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UKF">
+      <UniqueIdentifier>{6e150ce9-e21d-48bf-99b9-914cf5a21609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCVKalman">
+      <UniqueIdentifier>{6a395079-e921-42f1-ad99-ec7e41d35e12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\TrackingManager.cpp" />
+    <ClCompile Include="src\Track.cpp" />
+    <ClCompile Include="src\Kalman\Kalman3.cpp">
+      <Filter>Kalman</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kalman\Kalman5.cpp">
+      <Filter>Kalman</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kalman\OpenCVKalman.cpp">
+      <Filter>OpenCVKalman</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Track.h" />
+    <ClInclude Include="src\TrackingManager.h" />
+    <ClInclude Include="src\Kalman\Kalman3.h">
+      <Filter>Kalman</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kalman\Kalman5.h">
+      <Filter>Kalman</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kalman\OpenCVKalman.h">
+      <Filter>OpenCVKalman</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UKF\evolutionFunction.h" />
+  </ItemGroup>
+</Project>
