@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{72be1192-cd23-4ce4-ad44-a0f7508b1433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{0dd00d65-2e7b-42a3-a2fb-8f1a06936e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Samples">
+      <UniqueIdentifier>{0b65fcdc-c9ac-40e9-8bc2-ff2bf84499d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{3390cab6-a205-46b6-9bc6-6b620c4f7676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatlabEngine">
+      <UniqueIdentifier>{eaf5ddec-f766-405b-8bf3-f484d293cb5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Containers\Roi.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Containers\RoiIO.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Containers\Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Containers\vector3D.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\BitOperation.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\Maths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\matrixlapack.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\MersenneTwister.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Base64.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Chrono.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\UniqueIdentifier.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Samples\Sample.h">
+      <Filter>Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\IniFileIO.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BasicObject.h" />
+    <ClInclude Include="src\MatlabEngine\MatlabEngine.h">
+      <Filter>MatlabEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\SSEMaths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Color.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Containers\RoiIOBinary.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\matrix.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths\munkres.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\ShowImage.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\MyChrono.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\ShowImage3D.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\OpenCVLink.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Containers\RoiIO.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Containers\vector3D.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\BitOperation.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\Base64.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\Chrono.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\UniqueIdentifier.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Samples\Sample.cpp">
+      <Filter>Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\IniFileIO.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MatlabEngine\MatlabEngine.cpp">
+      <Filter>MatlabEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Containers\RoiIOBinary.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\munkres.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\ShowImage.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Maths.cpp" />
+    <ClCompile Include="src\Utils\ShowImage3D.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
